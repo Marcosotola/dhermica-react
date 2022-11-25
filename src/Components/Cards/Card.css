@@ -1,0 +1,42 @@
+.card {
+    border: 1px solid #86117e;
+    border-radius: 30px;
+    box-shadow: 0 0 5px #86117e;
+    width: 40%;
+    margin: 20px;
+    transition: 0.3s;
+    animation: ease-in-out;
+   
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #86117e;
+}
+
+.card-image img {
+    width: 99%;
+border-radius: 30px;
+}
+
+.card-title,
+.description {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.description {
+    font-size: large;
+
+}
+
+.link{
+    margin: 10px;
+}

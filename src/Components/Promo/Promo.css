@@ -1,0 +1,15 @@
+.promo {
+    color: #93435b;
+    animation-name: promo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    position: relative;
+    z-index: -2;
+    display: flex;
+    justify-content: baseline;
+}
+@keyframes promo {
+0% {color: #93435b;}
+50% {color: #dcc69c;}
+
+}

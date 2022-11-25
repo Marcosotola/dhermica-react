@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #93435b;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+    padding: 1rem;
+
+}
+
+.logo {
+    font-size: 30px;
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    width: 75px;
+}
+
+.inicio,
+.tratamientos,
+.productos,
+.contacto {
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px ;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    width: 2.5rem;
+    height: 2.3rem;
+    rotate: 90deg;
+    letter-spacing: 2px;
+    border-radius: 30%;
+    display: none;
+}
+
+.active{
+    background-color: #dcc69c;
+    color: #93435b;
+    border-radius: 10px;
+}
+.inicio:hover{
+    color: #ed0bde;
+}
+.tratamientos:hover{
+    color: #ed0bde;
+}
+.productos:hover{
+    color: #ed0bde;
+}
+.contacto:hover{
+    color: #ed0bde;
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .logo {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+    
+
+    .nav-links-mobile {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin: 2rem;
+        list-style: none;
+        background-color: #93435b;
+        left: 0;
+        top: 50px;
+        width: 100%;
+        height: 400px;
+    }
+
+    .inicio,
+    .tratamientos,
+    .productos,
+    .contacto {
+        color: white;
+        text-align: center;
+        padding: 15px;
+        width: 100%;
+    }
+
+
+    .mobile-menu-icon {
+        font-weight: bold;
+        display: block;
+        position: absolute;
+        font-size: 20px;
+        color: white;
+        background-color: #cf898b;
+        border: none;
+        outline: none;
+        top: 8px;
+        right: 25px;
+    }
+}

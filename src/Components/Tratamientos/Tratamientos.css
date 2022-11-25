@@ -1,0 +1,42 @@
+.content{
+    background-color: #e5bfbc;
+    display: grid;
+    grid-template: 3fr / 4fr  2fr;
+    grid-template-areas:
+        "main aside"
+    ;
+}
+
+.mainTrata{
+    grid-area: main;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.asideTrata{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+
+    .content{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    grid-template: 3fr auto;
+    grid-template-areas:
+        "main"
+        "aside"
+        ;
+    }
+
+}
