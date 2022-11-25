@@ -40,3 +40,8 @@
     }
 
 }
+
+.mainTrata{
+    flex-direction: column;
+}
+

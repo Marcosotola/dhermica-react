@@ -40,3 +40,9 @@ border-radius: 30px;
 .link{
     margin: 10px;
 }
+
+@media screen and (max-width: 780px) {
+    .card{
+        width: 90%;
+    }
+}
