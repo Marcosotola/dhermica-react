@@ -39,9 +39,11 @@
         ;
     }
 
+    .mainTrata{
+        flex-direction: column;
+    }
+
 }
 
-.mainTrata{
-    flex-direction: column;
-}
+
 
