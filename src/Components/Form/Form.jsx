@@ -27,7 +27,7 @@ function ContactForm() {
                 field="nombre"
                 errors={state.errors}
             />
-             <label htmlFor="nombre">
+            <label htmlFor="nombre">
                 Apellido
             </label>
             <input
@@ -53,7 +53,7 @@ function ContactForm() {
                 field="email"
                 errors={state.errors}
             />
-             <label htmlFor="mensaje">
+            <label htmlFor="mensaje">
                 Mensaje
             </label>
             <textarea

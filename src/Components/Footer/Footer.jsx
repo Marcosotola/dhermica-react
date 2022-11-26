@@ -70,7 +70,7 @@ export const Footer = () => {
         </div>
         <div className='Fface'>
           <a href="https://es-la.facebook.com/espaciodhermica/">
-            <img src={Iface} alt="" />
+            <img src={Iface} alt="logo Facebook" />
           </a>
           <a href="https://es-la.facebook.com/espaciodhermica/">
             <p> @dermica salud / bienestar</p>
@@ -78,14 +78,14 @@ export const Footer = () => {
         </div>
         <div className='Finsta'>
           <a href="https://es-la.facebook.com/espaciodhermica/">
-            <img src={Iinsta} alt="" />
+            <img src={Iinsta} alt="Logo Instagram" />
           </a>
           <a href="https://www.instagram.com/dhermica.cor/">
             <p> @dermica.cor</p>
           </a>
         </div>
         <div className='Flogo'>
-        <img src={Idhermica} alt="" />
+        <img src={Idhermica} alt="Logo Dhermica" />
         <h2>Dhermica</h2>
         </div>
       </div>
