@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './Footer.css'
 import Iface from '../Image/Iconos/Iface.png'
 import Iinsta from '../Image/Iconos/Iinsta.png'
+import Idhermica from '../Image/Iconos/Idhermica.png'
 
 export const Footer = () => {
   return (
@@ -83,7 +84,10 @@ export const Footer = () => {
             <p> @dermica.cor</p>
           </a>
         </div>
+        <div className='Flogo'>
+        <img src={Idhermica} alt="" />
         <h2>Dhermica</h2>
+        </div>
       </div>
     </>
   )

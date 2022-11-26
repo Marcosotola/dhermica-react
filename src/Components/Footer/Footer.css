@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #764d3e;
     padding: 1rem;
+   
 }
 
 
@@ -15,7 +16,6 @@ p {
 }
 
 .menuFooter {
-    width: 50%;
     display: flex;
     justify-content: center;
 }
@@ -29,10 +29,10 @@ p {
 
 .menuHorizontal li a {
     display: block;
-    padding: 2rem;
+    padding: 5rem;
     color: white;
     text-decoration: none;
-    font-size: large;
+    font-size: x-large;
 }
 
 .menuHorizontal li:hover {
@@ -95,8 +95,19 @@ a {
     width: 5rem;
 }
 
+.Flogo{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+  gap: 3rem;
+}
+
+.Flogo img{
+    width: 5rem;
+
+}
 h2 {
     margin: 1rem;
     color: white;
-    font-size: x-large;
+    font-size: xx-large;
 }

@@ -6,7 +6,7 @@
     margin: 20px;
     transition: 0.3s;
     animation: ease-in-out;
-   
+
 }
 
 .card:hover {
@@ -16,7 +16,7 @@
 
 .card-image img {
     width: 99%;
-border-radius: 30px;
+    border-radius: 30px;
 }
 
 .card-title,
@@ -37,12 +37,12 @@ border-radius: 30px;
 
 }
 
-.link{
-    margin: 10px;
+.link {
+    margin: 2rem;
 }
 
 @media screen and (max-width: 780px) {
-    .card{
+    .card {
         width: 90%;
     }
 }
