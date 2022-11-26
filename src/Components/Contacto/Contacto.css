@@ -1,4 +1,6 @@
 .contentContact{
+    color: #764d3e;
+    font-family: 'Montserrat', sans-serif;
     background-color: #e5bfbc;
     display: grid;
     grid-template: 3fr / 4fr  2fr;
@@ -7,10 +9,15 @@
     ;
 }
 
+h1{
+    color: #764d3e;
+    font-family: 'Montserrat', sans-serif;
+}
 .mainContact{
     background-color: white;
     border-radius: 30px;
     margin: 30px;
+    font-size: x-large;
     grid-area: mainContact;
     display: flex;
     flex-direction: column;
@@ -24,33 +31,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem 0;
     gap: 2rem;
     grid-area: asideContact;
 }
 
-.formContact{
-    background-color: #e5bfbc;
-    border-radius: 30px;
-    width: 70%;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 2rem;
-    padding: 2rem;
-
-    justify-content: center;
-    align-items: center;
-
-}
-
-label{
-    font-size: xx-large;
-}
-
-input{
-    font-size: xx-large;
-}
 
 @media screen and (max-width: 780px) {
     .contentContact{

@@ -1,0 +1,48 @@
+.formContact{
+    background-color: #e5bfbc;
+    border: 5px solid #86117e;
+    border-radius: 30px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+label{
+    color: #764d3e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+input{
+    margin: 0 20px;
+    padding: 0.5rem;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+textarea{
+    padding: 0.5rem;
+    font-size: x-large;
+    border-radius: 10px;
+    width: 55%;
+    height: 200px;
+}
+
+button{
+    padding: 1rem;
+    border-radius: 10px;
+    color: #764d3e;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+button:hover{
+        transform: scale(1.1);
+}
