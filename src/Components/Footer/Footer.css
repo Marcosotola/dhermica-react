@@ -1,0 +1,102 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #764d3e;
+    padding: 1rem;
+}
+
+
+p {
+    margin: 2rem;
+    color: white;
+
+}
+
+.menuFooter {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuHorizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menuHorizontal li a {
+    display: block;
+    padding: 2rem;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.menuHorizontal li:hover {
+    transform: scale(1.1);
+}
+
+.menuVertical {
+    padding: 1rem;
+    position: absolute;
+    display: none;
+    list-style: none;
+}
+
+.menuHorizontal li:hover .menuVertical {
+    display: block;
+    background-color: #e5bfbc;
+    border-radius: 30px;
+    width: 350px;
+}
+
+.menuVertical li:hover {
+    margin: 0 2rem;
+    background-color: #df948f;
+    border-radius: 10px;
+}
+
+.menuVertical li a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+.activate {
+    font-weight: bold;
+}
+
+
+.Fface {
+    padding: 1rem;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Fface img {
+    width: 5rem;
+}
+
+.Finsta {
+    padding: 1rem;
+    display: flex;
+}
+
+.Finsta img {
+    width: 5rem;
+}
+
+h2 {
+    margin: 1rem;
+    color: white;
+    font-size: x-large;
+}

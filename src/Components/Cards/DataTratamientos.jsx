@@ -38,4 +38,4 @@ const DataTratamientos =[
     },
 ]
 
-export default DataTratamientos;
+export default DataTratamientos

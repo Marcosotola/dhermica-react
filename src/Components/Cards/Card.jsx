@@ -24,9 +24,9 @@ const Card = (props) => {
                         </p>
                     </div>
                 </div>
-            ))};
+            ))}
         </>
-    );
-};
+    )
+}
 
 export default Card;
