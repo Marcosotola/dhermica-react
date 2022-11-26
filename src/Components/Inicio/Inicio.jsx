@@ -17,23 +17,23 @@ export const Inicio = () => {
     <div className='container'>
       <main className='main'>
         <img className='title' src={Title} alt="titulo promos" />
-<Slider />
+        <Slider />
       </main>
       <aside className='aside'>
-      <Link to='/Tratamientos'>
-        <img className='trata' src={Tratamientos} alt="todos los tratamientos" />
+        <Link to='/Tratamientos'>
+          <img className='trata' src={Tratamientos} alt="todos los tratamientos" />
         </Link>
-      <a href="https://wa.me/3513908626">
-        <img className='turnos' src={Turnos} alt="" />
+        <a href="https://wa.me/3513908626">
+          <img className='turnos' src={Turnos} alt="" />
         </a>
         <Link to='/Productos'>
-        <img className='produ' src={Productos} alt="productos" />
+          <img className='produ' src={Productos} alt="productos" />
         </Link>
-      
-        <img className='mimate' src={Mimate} alt="" />
+
+        <img className='mimate' src={Mimate} alt="mimate" />
       </aside>
       <section className='section'>
-<img className='llamanos' src={Llamanos} alt="informacion redes" />
+        <img className='llamanos' src={Llamanos} alt="informacion redes" />
       </section>
       <article className='article'>
         <img className='regalate' src={Regalate} alt="descripcion somos" />

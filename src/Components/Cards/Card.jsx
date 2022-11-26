@@ -1,3 +1,4 @@
+import { Print } from '@mui/icons-material';
 import React from 'react'
 import './Card.css';
 
@@ -12,7 +13,7 @@ const Card = (props) => {
                     </div>
                     <div>
                         <p className='card-title'>
-                            {value.title}
+                            { value.title}
                         </p>
                         <p className='description'>
                             {value.description}
@@ -26,7 +27,7 @@ const Card = (props) => {
                 </div>
             ))}
         </>
-    );
-};
+    )
+}
 
 export default Card;

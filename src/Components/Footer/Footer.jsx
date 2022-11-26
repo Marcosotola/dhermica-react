@@ -62,31 +62,32 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-
+        <div className='direccion'>
           <p>
             Av. Pablo Buitrago 6127, La Salle, Córdoba, Argentina Tel: 351 390-8626. Luciana Gonzalez.
           </p>
         </div>
-        <div className='Fface'>
-          <a href="https://es-la.facebook.com/espaciodhermica/">
-            <img src={Iface} alt="logo Facebook" />
-          </a>
-          <a href="https://es-la.facebook.com/espaciodhermica/">
-            <p> @dermica salud / bienestar</p>
-          </a>
-        </div>
-        <div className='Finsta'>
-          <a href="https://es-la.facebook.com/espaciodhermica/">
-            <img src={Iinsta} alt="Logo Instagram" />
-          </a>
-          <a href="https://www.instagram.com/dhermica.cor/">
-            <p> @dermica.cor</p>
-          </a>
+        <div className='social'>
+          <div className='Fface'>
+            <a href="https://es-la.facebook.com/espaciodhermica/">
+              <img src={Iface} alt="logo Facebook" />
+            </a>
+            <a href="https://es-la.facebook.com/espaciodhermica/">
+              <p> @dermica salud / bienestar</p>
+            </a>
+          </div>
+          <div className='Finsta'>
+            <a href="https://es-la.facebook.com/espaciodhermica/">
+              <img src={Iinsta} alt="Logo Instagram" />
+            </a>
+            <a href="https://www.instagram.com/dhermica.cor/">
+              <p> @dermica.cor</p>
+            </a>
+          </div>
         </div>
         <div className='Flogo'>
-        <img src={Idhermica} alt="Logo Dhermica" />
-        <h2>Dhermica</h2>
+          <img src={Idhermica} alt="Logo Dhermica" />
+          <h2>Dhermica</h2>
         </div>
       </div>
     </>

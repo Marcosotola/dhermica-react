@@ -1,7 +1,6 @@
 .container {
     display: flex;
     flex-wrap: wrap;
-    height: 200vh;
     background-color: #e5bfbc;
     display: grid;
     grid-template: 3fr 2fr / 1.5fr 1.5fr 2fr;
@@ -103,11 +102,22 @@
     box-shadow: 0 0 15px 0;
 }
 
+@media screen and (max-width: 992px){
+.container{
+    grid-template: 1fr 0.5fr / 1.5fr 1.5fr 2fr;
+    grid-template-areas:
+    "main main aside"
+    "section article aside";
+}
+.mimate{
+    display: none;
+}
+}
 @media screen and (max-width: 780px) {
 
     .container{
         height: 100%;
-    grid-template: 3fr 3fr auto / 1fr 1fr;
+    grid-template: 3fr 2fr auto / 1fr 1fr;
     grid-template-areas:
         "main main"
         "section article"

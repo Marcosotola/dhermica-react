@@ -6,7 +6,7 @@
     margin: 20px;
     transition: 0.3s;
     animation: ease-in-out;
-
+font-family: 'Montserrat', sans-serif;
 }
 
 .card:hover {
@@ -23,22 +23,24 @@
 .description {
     text-align: center;
     margin: 0;
-    padding: 10px;
+    padding: 1rem;
 }
 
 .card-title {
     font-weight: bold;
     font-size: x-large;
+    color: #93435b;
 
 }
 
 .description {
-    font-size: large;
+    font-size: x-large;
 
 }
 
 .link {
     margin: 2rem;
+    font-size: x-large;
 }
 
 @media screen and (max-width: 780px) {

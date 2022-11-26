@@ -5,31 +5,26 @@
     align-items: center;
     background-color: #764d3e;
     padding: 1rem;
-   
-}
-
-
-p {
-    margin: 2rem;
-    color: white;
 
 }
+
 
 .menuFooter {
-    display: flex;
-    justify-content: center;
+    width: 80%;
+    margin: 1rem;
+    border: 2px solid white;
+    border-radius: 30px;
 }
 
 .menuHorizontal {
     list-style: none;
     display: flex;
     justify-content: space-around;
-
 }
 
 .menuHorizontal li a {
-    display: block;
-    padding: 5rem;
+    display: flex;
+    padding: 1rem;
     color: white;
     text-decoration: none;
     font-size: x-large;
@@ -42,12 +37,15 @@ p {
 .menuVertical {
     padding: 1rem;
     position: absolute;
-    display: none;
+display: none;
     list-style: none;
 }
 
 .menuHorizontal li:hover .menuVertical {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
     background-color: #e5bfbc;
     border-radius: 30px;
     width: 350px;
@@ -64,10 +62,25 @@ p {
     color: white;
     padding: 15px;
     text-decoration: none;
-    font-size: medium;
+    font-size: large;
 
 }
+.direccion p{
+    color: white;
+    font-size: x-large;
+    margin: 2rem;
+}
 
+.social{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.social a{
+    color: white;
+}
 .activate {
     font-weight: bold;
 }
@@ -76,38 +89,55 @@ p {
 .Fface {
     padding: 1rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-a {
-    text-decoration: none;
-}
 
 .Fface img {
     width: 5rem;
 }
 
+.Fface a{
+    font-size: x-large;
+}
+
 .Finsta {
     padding: 1rem;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .Finsta img {
     width: 5rem;
 }
 
-.Flogo{
+.Finsta a{
+    font-size: x-large;
+}
+
+.Flogo {
     display: flex;
     justify-content: space-around;
     margin: 2rem;
-  gap: 3rem;
+    gap: 3rem;
 }
 
-.Flogo img{
+.Flogo img {
     width: 5rem;
 
 }
+
 h2 {
     margin: 1rem;
     color: white;
     font-size: xx-large;
+}
+
+@media screen and (max-width: 780px){
+    .menuHorizontal{
+        flex-direction: column;
+        align-items: center;
+    }
 }
