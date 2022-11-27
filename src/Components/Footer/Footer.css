@@ -137,6 +137,9 @@ h2 {
 
 @media screen and (max-width: 780px){
     .menuHorizontal li a{
-        font-size: large;
+        font-size: medium;
+    }
+    .menuFooter {
+        width: 100%;
     }
 }
