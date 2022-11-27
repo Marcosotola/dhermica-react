@@ -1,0 +1,48 @@
+.containerManos{
+    background-color: #e5bfbc;
+    display: grid;
+    grid-template: 3fr / 4fr  1.5fr;
+    grid-template-areas:
+        "main aside"
+    ;
+}
+
+.titleManos{
+    background-color: #e5bfbc;
+    padding-top: 1rem;
+}
+
+.mainManos{
+    grid-area: main;
+    background-color: white;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.asideManos{
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .containerManos{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    grid-template: 3fr auto;
+    grid-template-areas:
+        "main"
+        "aside"
+        ;
+    }
+
+}

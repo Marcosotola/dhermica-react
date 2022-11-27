@@ -9,6 +9,7 @@ import Cosme from './Components/Cosme/Cosme';
 import Corpo from './Components/Corpo/Corpo';
 import Depi from './Components/Depi/Depi';
 import CejasPestañas from './Components/CejasPestañas/CejasPestañas';
+import ManosPies from './Components/ManosPies/ManosPies';
 import Productos from './Components/Productos/Productos';
 import Contacto from './Components/Contacto/Contacto';
 import Footer from './Components/Footer/Footer';
@@ -28,6 +29,7 @@ function App() {
           <Route exact path="/corpo" component={Corpo} />
           <Route exact path="/depi" component={Depi} />
           <Route exact path="/cejasPestañas" component={CejasPestañas} />
+          <Route exact path="/manosPies" component={ManosPies} />
           <Route exact path="/productos" component={Productos} />
           <Route exact path="/contacto" component={Contacto} />
         </Switch>
