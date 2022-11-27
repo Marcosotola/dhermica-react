@@ -15,11 +15,11 @@ import DataCosme from '../Cards/DataCosme';
 export const Cosme = () => {
   return (
     <>
-    <div className='titleCosme'>
-      <h1>
-        Faciales
-      </h1>
-    </div>
+      <div className='titleCosme'>
+        <h1>
+          Faciales
+        </h1>
+      </div>
       <div className='containerCosme'>
         <main className='mainCosme'>
           <CardTrata details={DataCosme} />

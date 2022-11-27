@@ -25,7 +25,7 @@ export const Footer = () => {
 
                 <li>
                   <NavLink exact to="/Cosme" className='Fcosme' activeClassName='activate'>
-                    Faciales 
+                    Faciales
                   </NavLink>
                 </li>
                 <li>

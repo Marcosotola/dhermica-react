@@ -15,11 +15,11 @@ import DataCejasPestañas from '../Cards/DataCejasPestañas';
 export const CejasPestañas = () => {
   return (
     <>
-    <div className='titleCejas'>
-      <h1>
-        Cejas y Pestañas
-      </h1>
-    </div>
+      <div className='titleCejas'>
+        <h1>
+          Cejas y Pestañas
+        </h1>
+      </div>
       <div className='containerCejas'>
         <main className='mainCejas'>
           <CardTrata details={DataCejasPestañas} />

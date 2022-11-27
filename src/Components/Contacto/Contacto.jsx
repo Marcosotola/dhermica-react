@@ -10,7 +10,7 @@ import Form from '../Form/Form';
 
 
 export const Contacto = () => {
-  return (
+    return (
 
         <>
             <div className='contentContact'>
@@ -33,7 +33,7 @@ export const Contacto = () => {
                     <img className='llamanos' src={Llamanos} alt="donde ubicar" />
                 </aside>
             </div>
-            
+
         </>
 
 

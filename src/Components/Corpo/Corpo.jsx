@@ -12,11 +12,11 @@ import DataCorpo from '../Cards/DataCorpo';
 export const Corpo = () => {
   return (
     <>
-    <div className='titleCorpo'>
-      <h1>
-        Corporales
-      </h1>
-    </div>
+      <div className='titleCorpo'>
+        <h1>
+          Corporales
+        </h1>
+      </div>
       <div className='containerCorpo'>
         <main className='mainCorpo'>
           <CardTrata details={DataCorpo} />
@@ -32,7 +32,7 @@ export const Corpo = () => {
             <img className='produ' src={Productos} alt="productos" />
             <img className='llamanos' src={Llamanos} alt="productos" />
           </Link>
-          </aside>
+        </aside>
 
 
       </div>

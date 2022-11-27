@@ -13,11 +13,11 @@ import DataDepi from '../Cards/DataDepi';
 export const Depi = () => {
   return (
     <>
-    <div className='titleDepi'>
-      <h1>
-        Depilación
-      </h1>
-    </div>
+      <div className='titleDepi'>
+        <h1>
+          Depilación
+        </h1>
+      </div>
       <div className='containerDepi'>
         <main className='mainDepi'>
           <CardTrata details={DataDepi} />
