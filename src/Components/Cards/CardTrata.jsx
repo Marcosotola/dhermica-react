@@ -3,7 +3,7 @@ import React from 'react'
 import './CardTrata.css';
 
 
-const Card = (props) => {
+const CardTrata = (props) => {
     return (
         <>
             {props.details.map((value, index) => (
@@ -18,11 +18,11 @@ const Card = (props) => {
                         <p className='descriptionTrata'>
                             {value.description}
                         </p>
-                        <p className='tDuración'>
+                        <p className='tDuracion'>
                             Duración de Sesión:
                         </p>
-                        <p className='duración'>
-                        {value.duración}
+                        <p className='duracion'>
+                        {value.duracion}
                         </p>
                     </div>
                 </div>
@@ -31,4 +31,4 @@ const Card = (props) => {
     )
 }
 
-export default Card;
+export default CardTrata;
