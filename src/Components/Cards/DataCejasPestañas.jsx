@@ -10,31 +10,33 @@ const DataCejasPestañas =[
     {
         img:Laminado,
         title:"Laminado de Cejas",
-        description: "Elegí el tratamiento ideal para pieles oleosas, secas, rosaceas o poros dilatados.",
-        duracion: "30 min"
+        description: "Se trata de un tratamiento semipermanente que se aplica sobre el vello de la ceja y consigue un efecto de ceja “peinada” hacia arriba, alisando el pelo más rebelde y fijando la forma deseada.",
+        duracion: "60 min"
     },
     {
         img:Perfilado,
         title:"Perfilado de Cejas",
-        description: "Necesitas tratar la flacides, celulitis, o esos kilitos de mas? Elegí tu tratamiento ideal",
+        description: "Consiste en el diseño y modelado de las cejas de acuerdo con la estructura de tu rostro, tus ojos y nariz. El objetivo del perfilado no es seguir el patrón de ceja que está de moda, sino perfeccionar su forma natural",
+        duracion: "60 min"
 
     },
     {
         img:Liffting,
-        title:"Liffting",
-        description: "Además de la belleza de tu rostro, hacé brillar tus manos y pies",
+        title:"Lifting de Pestañas",
+        description: "Es un tratamiento que alarga y crea una ligera curva hacia arriba de manera natural y duradera, consiguiendo mayor longitud y espesor. Para aquellas que tengan las pestañas medias o largas, rectas o sin forma, y deseen conseguir un resultado natural,",
+        duracion: "60 min"
     },
     {
         img:Permanente,
         title:"Permanente de Pestañas",
-        description: "Resaltá los rasgos y las facciones de tu rostro y descubrí tu mejor versión",
-  
+        description: " Es un tratamiento que riza las pestañas naturales y consigue que estas tengan una curvatura más pronunciada, lo que sin duda hará que se realce la expresividad de tu mirada y que tus ojos tengan una imagen mucho más impactante.",
+        duracion: "60 min"
     },
     {
         img:Ramillete,
-        title:"Ramillete de Pestañas",
-        description: "Sentirte suave es sentirte esplendida, elegí la forma que va con vos",
-  
+        title:"Extensión en Ramillete",
+        description: "Se trata de un trabajo artesanal mediante el cual se aplican pestañas en ramilletes de 3 pelos, los cuales podes elegir entre una amplia variedad de tamaños y grosor, logrando un efecto sumamente natural y dando como resultado pestañas sensuales y espesas.",
+        duracion: "30 min"
     }
     
 ]
