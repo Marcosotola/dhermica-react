@@ -8,7 +8,7 @@ import Depi from '../Image/Tratamientos/depi.png';
 const DataTratamientos =[
     {
         img:Cosme,
-        title:"Cosmeatría y Cosmetología",
+        title:"Faciales",
         description: "Elegí el tratamiento ideal para pieles oleosas, secas, rosaceas o poros dilatados.",
         link: "/Cosme"
     },

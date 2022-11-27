@@ -36,7 +36,7 @@ export const Inicio = () => {
         <img className='llamanos' src={Llamanos} alt="informacion redes" />
       </section>
       <article className='article'>
-        <img className='regalate' src={Regalate} alt="descripcion somos" />
+        <img className='regalate' src={Regalate} alt="dia de spa" />
       </article>
 
     </div>

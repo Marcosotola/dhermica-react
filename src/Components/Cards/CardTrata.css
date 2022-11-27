@@ -1,47 +1,37 @@
-.card {
+.cardTrata {
     border: 1px solid #86117e;
     border-radius: 30px;
     box-shadow: 0 0 5px #86117e;
     width: 45%;
     margin: 20px;
-    transition: 0.3s;
-    animation: ease-in-out;
-font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px 0 #86117e;
-}
-
-.card-image img {
-width: 100%;
+.cardTrata-image img {
+    width: 100%;
     border-radius: 30px;
 }
 
-.card-title,
+.cardTrata-title,
 .description {
     text-align: center;
     margin: 0;
     padding: 1rem;
 }
 
-.card-title {
+.cardTrata-title {
     font-weight: bold;
     font-size: x-large;
     color: #93435b;
 
 }
 
-.description {
-    font-size: x-large;
-
+.descriptionTrata {
+    font-size: large;
+margin: 0 1rem 1rem 1rem;
 }
 
-.link {
-    margin: 2rem;
-    font-size: x-large;
-}
+
 
 @media screen and (max-width: 780px) {
     .card {

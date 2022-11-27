@@ -1,9 +1,9 @@
 .slider {
     width: 70%;
     overflow: hidden;
-    box-shadow: 0 0 5px 0;
+    background-color: #86117e;
+    border: 3px solid #86117e;
     border-radius: 30px;
-    color: rgb(223, 43, 226);
 }
 
 .slider ul {
