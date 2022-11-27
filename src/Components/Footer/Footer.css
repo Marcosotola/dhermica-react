@@ -142,4 +142,14 @@ h2 {
     .menuFooter {
         width: 100%;
     }
+    .Finsta a, .Fface a{
+        font-size: medium;
+    }
+    
+    .Fface img, .Finsta img {
+        width: 3rem;
+    }
+    .direccion p{
+        font-size: medium;
+    }
 }
