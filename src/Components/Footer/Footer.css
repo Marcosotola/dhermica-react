@@ -136,8 +136,7 @@ h2 {
 }
 
 @media screen and (max-width: 780px){
-    .menuHorizontal{
-        flex-direction: column;
-        align-items: center;
+    .menuHorizontal li a{
+        font-size: large;
     }
 }
