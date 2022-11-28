@@ -77,7 +77,25 @@
     width: 90%;
 }
 
+.face, .insta, .ubi, .wha{
+    width: 90%;
+}
 
+.face:hover{
+    transform: scale(1.1);
+}
+
+.insta:hover{
+    transform: scale(1.1);
+}
+
+.ubi:hover{
+    transform: scale(1.1);
+}
+
+.wha:hover{
+    transform: scale(1.1);
+}
 .llamanos {
     width: 90%;
     border-radius: 30px;
