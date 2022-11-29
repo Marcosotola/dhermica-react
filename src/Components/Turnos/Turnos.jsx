@@ -1,0 +1,14 @@
+import React from 'react'
+import './Turnos.css'
+
+export const Turnos = () => {
+    return (
+        <>
+            <a href="https://wa.me/3513908626">
+                <img className='turnos' src={Turnos} alt="Enlace a Whatsapp" />
+            </a>
+        </>
+    )
+}
+
+export default Turnos 

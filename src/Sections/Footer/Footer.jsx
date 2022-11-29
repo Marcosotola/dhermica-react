@@ -1,10 +1,12 @@
 
 import { NavLink } from 'react-router-dom'
 import './Footer.css'
-import Iface from '../Image/Iconos/Iface.png'
-import Iinsta from '../Image/Iconos/Iinsta.png'
-import Iubi from '../Image/Iconos/Iubi.png'
-import Idhermica from '../Image/Iconos/Idhermica.png'
+import Iface from '../../Components/Image/Iconos/Iface.png';
+import Iinsta from '../../Components/Image/Iconos/Iinsta.png';
+import Iubi from '../../Components/Image/Iconos/Iubi.png';
+import Idhermica from '../../Components/Image/Iconos/Idhermica.png';
+
+
 
 export const Footer = () => {
   return (

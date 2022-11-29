@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Route, Switch, } from 'react-router-dom';
 import './App.css';
 import Header from './Sections/Header/Header'
-import Navbar from './Components/Navbar/Navbar'
+import Navbar from './Sections/Navbar/Navbar'
 import Inicio from './Components/Inicio/Inicio';
 import Tratamientos from './Components/Tratamientos/Tratamientos';
 import Cosme from './Components/Cosme/Cosme';
@@ -12,7 +12,7 @@ import CejasPestañas from './Components/CejasPestañas/CejasPestañas';
 import ManosPies from './Components/ManosPies/ManosPies';
 import Productos from './Components/Productos/Productos';
 import Contacto from './Components/Contacto/Contacto';
-import Footer from './Components/Footer/Footer';
+import Footer from './Sections/Footer/Footer';
 
 
 function App() {

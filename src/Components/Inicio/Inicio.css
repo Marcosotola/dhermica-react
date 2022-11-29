@@ -48,32 +48,6 @@
     width: 30%;
 }
 
-.trata {
-    width: 90%;
-    border-radius: 30px;
-    color: #86117e;
-    border: 5px solid #86117e;
-}
-
-.trata:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px 0;
-    
-}
-
-.turnos {
-    width: 90%;
-    border-radius: 60px 0;
-    color: #86117e;
-    border: 5px solid #86117e;
-}
-
-.turnos:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px 0;
-}
-
-
 .mimate {
     width: 90%;
 }
