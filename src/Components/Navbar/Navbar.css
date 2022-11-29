@@ -33,7 +33,7 @@
     text-decoration: none;
     color: white;
     font-size: x-large;
-    padding: 1rem ;
+    padding: 1rem;
     margin: 0 1rem;
     cursor: pointer;
 }
@@ -47,32 +47,37 @@
     display: none;
 }
 
-.active{
+.active {
     background-color: #dcc69c;
     color: #93435b;
     border-radius: 10px;
 }
-.inicio:hover{
-    color: #ed0bde;
-}
-.tratamientos:hover{
-    color: #ed0bde;
-}
-.productos:hover{
-    color: #ed0bde;
-}
-.contacto:hover{
+
+.inicio:hover {
     color: #ed0bde;
 }
 
-@media screen and (max-width: 992px){
-.logo{
-    display: none;
+.tratamientos:hover {
+    color: #ed0bde;
 }
-.navbar{
 
-    justify-content: flex-end;
+.productos:hover {
+    color: #ed0bde;
 }
+
+.contacto:hover {
+    color: #ed0bde;
+}
+
+@media screen and (max-width: 992px) {
+    .logo {
+        display: none;
+    }
+
+    .navbar {
+
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (max-width: 780px) {
@@ -83,7 +88,7 @@
     .nav-links {
         display: none;
     }
-    
+
 
     .nav-links-mobile {
         position: absolute;
@@ -96,10 +101,11 @@
         list-style: none;
         background-color: #93435b;
         border-radius: 30px;
-       right: 0;
+        right: 0;
         top: 100px;
         width: 50%;
-    opacity: 0.9;
+        opacity: 0.9;
+        z-index: 10;
     }
 
     .inicio,
@@ -115,10 +121,10 @@
 
     .mobile-menu-icon {
         font-weight: bold;
-        display:flex;
+        display: flex;
         flex-direction: column;
         position: absolute;
-        font-size:large;
+        font-size: large;
         color: white;
         background-color: #cf898b;
         border: none;

@@ -169,3 +169,8 @@ h2 {
         font-size: medium;
     }
 }
+@media screen and (max-width: 450px){
+    .menuHorizontal li a{
+        font-size: x-small;
+    }
+}
