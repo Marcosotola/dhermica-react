@@ -3,10 +3,10 @@ import './Corpo.css';
 import { Link } from 'react-router-dom';
 import Tratamientos from '../Image/Aside/Tratamientos.png';
 import Turnos from '../Image/Aside/Turnos.png';
-import Llamanos from '../Image/Section/Llamanos.png';
 import Productos from '../Image/Aside/productos.png';
 import CardTrata from '../Cards/CardTrata';
 import DataCorpo from '../Cards/DataCorpo';
+import Enlaces from '../Enlaces/Enlaces';
 
 
 export const Corpo = () => {
@@ -30,7 +30,7 @@ export const Corpo = () => {
           </a>
           <Link to='/Productos'>
             <img className='produ' src={Productos} alt="productos" />
-            <img className='llamanos' src={Llamanos} alt="productos" />
+        <Enlaces />
           </Link>
         </aside>
 

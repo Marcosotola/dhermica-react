@@ -3,12 +3,12 @@ import './CejasPestañas.css';
 import { Link } from 'react-router-dom';
 import Tratamientos from '../Image/Aside/Tratamientos.png';
 import Turnos from '../Image/Aside/Turnos.png';
-import Llamanos from '../Image/Section/Llamanos.png';
 import Mimate from '../Image/Aside/Mimate.png';
 import Regalate from '../Image/Article/Regalate.png';
 import Productos from '../Image/Aside/productos.png';
 import CardTrata from '../Cards/CardTrata';
 import DataCejasPestañas from '../Cards/DataCejasPestañas';
+import Enlaces from '../Enlaces/Enlaces';
 
 
 
@@ -35,7 +35,7 @@ export const CejasPestañas = () => {
             <img className='produ' src={Productos} alt="productos" />
           </Link>
           <img className='regalate' src={Regalate} alt="dia de spa" />
-          <img className='llamanos' src={Llamanos} alt="informacion redes" />
+         <Enlaces />
           <img className='mimate' src={Mimate} alt="mimate" />
         </aside>
 

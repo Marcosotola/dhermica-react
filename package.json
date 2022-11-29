@@ -18,10 +18,10 @@
   "@formspree/react": "^2.4.1",
  
    
-  "@mui/icons-material": "^5.10.14",
+  "@mui/icons-material": "^5.10.16",
  
    
-  "@mui/material": "^5.10.14",
+  "@mui/material": "^5.10.16",
  
    
   "@testing-library/jest-dom": "^5.16.5",

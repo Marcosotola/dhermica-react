@@ -117,6 +117,22 @@ display: none;
     font-size: x-large;
 }
 
+.Fubi {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Fubi img {
+    width: 5rem;
+}
+
+.Fubi a{
+    font-size: x-large;
+}
+
+
 .Flogo {
     display: flex;
     justify-content: space-around;
@@ -142,11 +158,11 @@ h2 {
     .menuFooter {
         width: 100%;
     }
-    .Finsta a, .Fface a{
+    .Finsta a, .Fface a, .Fubi a{
         font-size: medium;
     }
     
-    .Fface img, .Finsta img {
+    .Fface img, .Finsta img, .Fubi{
         width: 3rem;
     }
     .direccion p{

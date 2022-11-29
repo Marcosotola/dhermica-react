@@ -6,8 +6,8 @@ import './Tratamientos.css';
 import { Link } from 'react-router-dom'
 import Turnos from '../Image/Aside/Turnos.png';
 import Produ from '../Image/Aside/productos.png';
-import Llamanos from '../Image/Section/Llamanos.png';
 import Regalate from '../Image/Article/Regalate.png';
+import Enlaces from '../Enlaces/Enlaces';
 
 
 
@@ -25,7 +25,7 @@ export const Tratamientos = () => {
         <Link to='/Productos'>
           <img className='produ' src={Produ} alt="" />
         </Link>
-        <img className='llamanos' src={Llamanos} alt="" />
+<Enlaces />
       </aside>
     </div>
   )

@@ -4,8 +4,8 @@ import './Productos.css';
 import { Link } from 'react-router-dom'
 import Turnos from '../Image/Aside/Turnos.png';
 import Trata from '../Image/Aside/Tratamientos.png';
-import Llamanos from '../Image/Section/Llamanos.png';
 import ReactPlayer from 'react-player';
+import Enlaces from '../Enlaces/Enlaces';
 
 
 export const Productos = () => {
@@ -51,7 +51,7 @@ export const Productos = () => {
           <img className='turnos' src={Turnos} alt="Turnos" />
         </a>
 
-        <img className='llamanos' src={Llamanos} alt="Llamanos" />
+     <Enlaces />
       </aside>
     </div>
   )

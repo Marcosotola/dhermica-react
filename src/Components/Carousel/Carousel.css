@@ -1,0 +1,13 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border: 5px solid #86117e;
+    border-radius: 30px;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+.carousel img{
+    border-radius: 30px;
+    width: 85%;
+}

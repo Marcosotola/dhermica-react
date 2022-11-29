@@ -9,8 +9,8 @@
 .slider ul {
     padding: 0px;
     display: flex;
-    width: 400%;
-    animation: slider 20s infinite alternate;
+    width: 300%;
+    animation: slider 15s infinite alternate;
     animation-timing-function: linear;
 }
 
@@ -33,27 +33,20 @@
         margin-left: 0;
     }
 
-    25% {
+    23% {
         margin-left: -100%;
     }
 
-    45% {
+    77% {
         margin-left: -100%;
     }
 
-    50% {
+    80% {
         margin-left: -200%;
-    }
-
-    70% {
-        margin-left: -200%;
-    }
-
-    75% {
-        margin-left: -300%;
     }
 
     100% {
-        margin-left: -300%;
+        margin-left: -200%;
     }
+
 }

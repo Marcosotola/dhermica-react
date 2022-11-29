@@ -4,9 +4,9 @@ import './Contacto.css'
 import { Link } from 'react-router-dom';
 import Tratamientos from '../Image/Aside/Tratamientos.png';
 import Turnos from '../Image/Aside/Turnos.png';
-import Llamanos from '../Image/Section/Llamanos.png';
 import Productos from '../Image/Aside/productos.png';
 import Form from '../Form/Form';
+import Enlaces from '../Enlaces/Enlaces';
 
 
 export const Contacto = () => {
@@ -30,20 +30,11 @@ export const Contacto = () => {
                         <img className='produ' src={Productos} alt="productos" />
                     </Link>
 
-                    <img className='llamanos' src={Llamanos} alt="donde ubicar" />
+                    <Enlaces />
                 </aside>
             </div>
 
         </>
-
-
-
-
-
-
-
-
-
     );
 }
 

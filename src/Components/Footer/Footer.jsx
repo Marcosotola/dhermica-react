@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import './Footer.css'
 import Iface from '../Image/Iconos/Iface.png'
 import Iinsta from '../Image/Iconos/Iinsta.png'
+import Iubi from '../Image/Iconos/Iubi.png'
 import Idhermica from '../Image/Iconos/Idhermica.png'
 
 export const Footer = () => {
@@ -82,6 +83,14 @@ export const Footer = () => {
             </a>
             <a href="https://www.instagram.com/dhermica.cor/">
               <p> @dermica.cor</p>
+            </a>
+          </div>
+          <div className='Fubi'>
+            <a href="https://es-la.facebook.com/espaciodhermica/">
+              <img src={Iubi} alt="logo map" />
+            </a>
+            <a href="https://www.google.com.ar/maps/place/Dhermica+Salud%2FBienestar/@-31.3468433,-64.2822914,15z/data=!3m1!4b1!4m5!3m4!1s0x94329e9df2d1ee09:0xd6f21b47ba524ac5!8m2!3d-31.3468626!4d-64.2735449">
+              <p> Ubicanos </p>
             </a>
           </div>
         </div>
