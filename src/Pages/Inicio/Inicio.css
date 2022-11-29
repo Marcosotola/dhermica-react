@@ -52,49 +52,12 @@
     width: 90%;
 }
 
-.face, .insta, .ubi, .wha{
-    width: 90%;
-}
-
-.face:hover{
-    transform: scale(1.1);
-}
-
-.insta:hover{
-    transform: scale(1.1);
-}
-
-.ubi:hover{
-    transform: scale(1.1);
-}
-
-.wha:hover{
-    transform: scale(1.1);
-}
-.llamanos {
-    width: 90%;
-    border-radius: 30px;
-    border: 5px solid #86117e;
-    margin-top: 1rem;
-}
-
 .regalate {
     width: 90%;
     border-radius: 30px;
     border: 5px solid #86117e;
 }
 
-.produ {
-    width: 90%;
-    border-radius: 60px 0;
-    color: #86117e;
-    border: 5px solid #86117e;
-}
-
-.produ:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 15px 0;
-}
 
 @media screen and (max-width: 992px){
 .container{

@@ -1,15 +1,13 @@
 import React from 'react'
 import './Inicio.css';
-import Trata from '../Trata/Trata'
-import Turnos from '../Turnos/Turnos';
-import Carousel from '../Carousel/Carousel'
-import Mimate from '../Image/Aside/Mimate.png';
-import Regalate from '../Image/Article/Regalate.png';
-import Produ from '../Produ/Produ';
+import Trata from '../../Components/Trata/Trata'
+import Turnos from '../../Components/Turnos/Turnos';
+import Carousel from '../../Components/Carousel/Carousel'
+import Mimate from '../../Components/Image/Aside/Mimate.png';
+import Regalate from '../../Components/Image/Article/Regalate.png';
+import Produ from '../../Components/Produ/Produ';
 import Title from './Title.png';
-import Enlaces from '../Enlaces/Enlaces';
-
-
+import Enlaces from '../../Components/Enlaces/Enlaces';
 
 export const Inicio = () => {
   return (

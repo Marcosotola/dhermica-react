@@ -1,0 +1,8 @@
+.face, .insta, .ubi, .wha{
+    width: 90%;
+}
+
+.face:hover, .insta:hover, .ubi:hover{
+    transform: scale(1.1);
+}
+

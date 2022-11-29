@@ -1,7 +1,7 @@
 import React from 'react'
 import './Produ.css'
 import { Link } from 'react-router-dom'
-import Productos from '../Image/Productos/productos.jpeg'
+import Productos from '../Image/Aside/productos.png'
 
 export const Produ = () => {
     return (

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Enlaces.css'
 import Face from '../Image/Enlaces/face.png'
 import Insta from '../Image/Enlaces/insta.png'
 import Ubi from '../Image/Enlaces/ubi.png'

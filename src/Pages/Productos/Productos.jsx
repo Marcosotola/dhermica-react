@@ -1,11 +1,10 @@
 
 import React from 'react'
 import './Productos.css';
-import { Link } from 'react-router-dom'
-import Turnos from '../Image/Aside/Turnos.png';
-import Trata from '../Image/Aside/Tratamientos.png';
+import Turnos from '../../Components/Turnos/Turnos';
+import Trata from '../../Components/Trata/Trata';
 import ReactPlayer from 'react-player';
-import Enlaces from '../Enlaces/Enlaces';
+import Enlaces from '../../Components/Enlaces/Enlaces';
 
 
 export const Productos = () => {
@@ -44,14 +43,9 @@ export const Productos = () => {
         />
       </main>
       <aside className='asideProductos'>
-        <Link to='/Tratamientos'>
-          <img className='trata' src={Trata} alt="tratamientos todos" />
-        </Link>
-        <a href="https://wa.me/3513908626">
-          <img className='turnos' src={Turnos} alt="Turnos" />
-        </a>
-
-     <Enlaces />
+        <Trata />
+        <Turnos />
+        <Enlaces />
       </aside>
     </div>
   )

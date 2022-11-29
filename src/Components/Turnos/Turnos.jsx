@@ -1,7 +1,8 @@
 import React from 'react'
 import './Turnos.css'
+import Turnos from '../Image/Aside/Turnos.png'
 
-export const Turnos = () => {
+export const Turnoswa = () => {
     return (
         <>
             <a href="https://wa.me/3513908626">
@@ -11,4 +12,4 @@ export const Turnos = () => {
     )
 }
 
-export default Turnos 
+export default Turnoswa 
