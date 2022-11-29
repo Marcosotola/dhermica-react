@@ -7,6 +7,18 @@ import Depi from '../Image/Tratamientos/depi.png';
 
 const DataTratamientos = [
     {
+        img: CejasPestañas,
+        title: "Cejas y Pestañas",
+        description: "Resaltá los rasgos y las facciones de tu rostro y descubrí tu mejor versión",
+        link: "/CejasPestañas"
+    },
+    {
+        img: ManosPies,
+        title: "Manos y Pies",
+        description: "Además de la belleza de tu rostro, hacé brillar tus manos y pies",
+        link: "/ManosPies"
+    },
+    {
         img: Cosme,
         title: "Faciales",
         description: "Elegí el tratamiento ideal para pieles oleosas, secas, rosaceas o poros dilatados.",
@@ -17,18 +29,6 @@ const DataTratamientos = [
         title: "Corporales",
         description: "Necesitas tratar la flacides, celulitis, o esos kilitos de mas? Elegí tu tratamiento ideal",
         link: "/Corpo"
-    },
-    {
-        img: ManosPies,
-        title: "Manos y Pies",
-        description: "Además de la belleza de tu rostro, hacé brillar tus manos y pies",
-        link: "/ManosPies"
-    },
-    {
-        img: CejasPestañas,
-        title: "Cejas y Pestañas",
-        description: "Resaltá los rasgos y las facciones de tu rostro y descubrí tu mejor versión",
-        link: "/CejasPestañas"
     },
     {
         img: Depi,

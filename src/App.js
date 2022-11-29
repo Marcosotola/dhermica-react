@@ -5,11 +5,11 @@ import Header from './Sections/Header/Header'
 import Navbar from './Sections/Navbar/Navbar'
 import Inicio from './Pages/Inicio/Inicio';
 import Tratamientos from './Pages/Tratamientos/Tratamientos';
-import Cosme from './Components/Cosme/Cosme';
-import Corpo from './Components/Corpo/Corpo';
-import Depi from './Components/Depi/Depi';
-import CejasPestañas from './Components/CejasPestañas/CejasPestañas';
-import ManosPies from './Components/ManosPies/ManosPies';
+import Cosme from './Pages/Cosme/Cosme';
+import Corpo from './Pages/Corpo/Corpo';
+import Depi from './Pages/Depi/Depi';
+import CejasPestañas from './Pages/CejasPestañas/CejasPestañas';
+import ManosPies from './Pages/ManosPies/ManosPies';
 import Productos from './Pages/Productos/Productos';
 import Contacto from './Pages/Contacto/Contacto';
 import Footer from './Sections/Footer/Footer';
