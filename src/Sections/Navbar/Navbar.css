@@ -15,7 +15,12 @@
 .logo {
     font-size: 30px;
     margin: 0 1rem;
+    color: white;
+    text-decoration: none;
+}
 
+.logo:hover{
+    transform: scale(1.1);
 }
 
 .nav-links {

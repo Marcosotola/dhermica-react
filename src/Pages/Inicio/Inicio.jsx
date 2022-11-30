@@ -11,26 +11,26 @@ import Enlaces from '../../Components/Enlaces/Enlaces';
 
 export const Inicio = () => {
   return (
-    <div className='container'>
-      <main className='main'>
-        <img className='title' src={Title} alt="titulo promos" />
-        <Carousel />
-      </main>
-      <aside className='aside'>
-        <Trata />
-        <Turnos />
-        <Produ />
-        <img className='mimate' src={Mimate} alt="mimate" />
-      </aside>
-      <section className='section'>
-        <Enlaces />
-      </section>
-      <article className='article'>
-        <img className='regalate' src={Regalate} alt="dia de spa" />
-      </article>
-
-    </div>
-
+    <>
+      <div className='container'>
+        <main className='main'>
+          <img className='title' src={Title} alt="titulo promos" />
+          <Carousel />
+        </main>
+        <aside className='aside'>
+          <Trata />
+          <Turnos />
+          <Produ />
+          <img className='mimate' src={Mimate} alt="mimate" />
+        </aside>
+        <section className='section'>
+          <Enlaces />
+        </section>
+        <article className='article'>
+          <img className='regalate' src={Regalate} alt="dia de spa" />
+        </article>
+      </div>
+    </>
   )
 }
 

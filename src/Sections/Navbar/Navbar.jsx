@@ -7,7 +7,9 @@ export const Navbar = () => {
     const [isMobile, setIsMobile] = useState(false);
     return (
         <nav className="navbar">
-            <h3 className='logo'>Dhermica</h3>
+            <a className='logo' href="./nosotros">
+            <h3>Dhermica</h3>
+            </a>
             <ul className={isMobile ? "nav-links-mobile" : "nav-links"}
                 onClick={() => setIsMobile(false)}>
                 <li>

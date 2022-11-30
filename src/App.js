@@ -12,6 +12,7 @@ import CejasPestañas from './Pages/CejasPestañas/CejasPestañas';
 import ManosPies from './Pages/ManosPies/ManosPies';
 import Productos from './Pages/Productos/Productos';
 import Contacto from './Pages/Contacto/Contacto';
+import Nosotros from './Pages/Nosotros/Nosotros'
 import Footer from './Sections/Footer/Footer';
 
 
@@ -31,6 +32,7 @@ function App() {
           <Route exact path="/cejasPestañas" component={CejasPestañas} />
           <Route exact path="/manosPies" component={ManosPies} />
           <Route exact path="/productos" component={Productos} />
+          <Route exact path="/nosotros" component={Nosotros} />
           <Route exact path="/contacto" component={Contacto} />
         </Switch>
         <Footer />
