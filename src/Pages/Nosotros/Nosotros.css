@@ -3,10 +3,9 @@
     flex-wrap: wrap;
     background-color: #e5bfbc;
     display: grid;
-    grid-template: 3fr 2fr / 1.5fr 1.5fr 2fr;
+    grid-template: 3fr / 4fr  1.7fr;
     grid-template-areas:
-        "main main aside"
-        "section article aside";
+        "main aside";
 }
 
 .mainNos {
@@ -14,7 +13,8 @@
     background-color: white;
     border-radius: 30px;
     margin: 30px;
-    padding: 1rem;
+    padding: 3rem;
+    gap: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,30 +25,47 @@
     grid-area: aside;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    gap: 1rem;
 }
 
-
-
-@media screen and (max-width: 992px){
-.container{
-    grid-template: 1fr 0.5fr / 1.5fr 1.5fr 2fr;
-    grid-template-areas:
-    "main main aside"
-    "section article aside";
+.nuestra{
+    background-color: #e5bfbc;
+    padding: 3rem;
+    border-radius: 30px;
+    color:#764d3e
+}
+.quienes{
+    background-color: #e5bfbc;
+    padding: 3rem;
+    border-radius: 30px;
+    color: #764d3e;
 }
 
+.nuestro{
+    background-color: #e5bfbc;
+    padding: 3rem;
+    border-radius: 30px;
+    color: #764d3e;
 }
-@media screen and (max-width: 780px) {
+.text{
+    font-size: x-large;
+    border: solid 2px #93435b;
+    border-radius: 30px;
+    padding: 1rem;
+}
 
-    .container{
+@media screen and (max-width: 992px) {
+
+    .containerNos{
+        display: flex;
+        flex-direction: column;
         height: 100%;
-    grid-template: 3fr 2fr auto / 1fr 1fr;
+    grid-template: 3fr auto;
     grid-template-areas:
-        "main main"
-        "section article"
-        "aside aside"
+        "main"
+        "aside"
         ;
     }
 

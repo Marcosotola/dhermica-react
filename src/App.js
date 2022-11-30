@@ -14,7 +14,7 @@ import Productos from './Pages/Productos/Productos';
 import Contacto from './Pages/Contacto/Contacto';
 import Nosotros from './Pages/Nosotros/Nosotros'
 import Footer from './Sections/Footer/Footer';
-
+import Badge from './Components/Badge/Badge';
 
 function App() {
   return (
@@ -36,8 +36,9 @@ function App() {
           <Route exact path="/contacto" component={Contacto} />
         </Switch>
         <Footer />
+        <Badge />
       </Router>
-
+      <Badge />
 
 
 
