@@ -39,9 +39,6 @@ function App() {
         <Badge />
       </Router>
       <Badge />
-
-
-
     </div>
   );
 }

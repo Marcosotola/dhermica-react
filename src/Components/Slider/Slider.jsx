@@ -16,8 +16,8 @@ export const Slider = () => {
           <img src={Promo2} alt='promo 2'></img>
         </li>
         <li>
-          <img src={Promo3} alt='promo 3'></img>
-        </li>
+        
+        </li>  <img src={Promo3} alt='promo 3'></img>
       </ul>
     </div>
   )
